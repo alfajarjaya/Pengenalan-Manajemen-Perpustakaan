@@ -1,0 +1,48 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.w-body {
+    background: linear-gradient(300deg, #1d3263, #442063, #1f2d51);
+}
+
+.navbar-nav {
+    background-color: #1d3263;
+}
+
+.navbar.nav-active {
+    background: #1d3263;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px #2c2c2c;
+}
+
+.text-shadow:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 767px) {
+    .offcanvas-mobile-half-height {
+        height: 50vh !important;
+    }
+
+}
+
+.gallery-img {
+    margin: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.gallery-img:hover {
+    opacity: 2;
+    box-shadow: 0px 0px 50px rgb(0, 195, 255);
+    transition: all 0.3s;
+}

@@ -1,0 +1,126 @@
+.container-cs {
+    background-color: gainsboro;
+    padding: 5%;
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+}
+
+.content-cs {
+    display: grid;
+    grid-template: column;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.content-cs p {
+    color: #442063;
+    font-size: 21px;
+}
+
+.ln-ac {
+    background-color: #442063;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 15%;
+}
+
+.center {
+    text-align: center;
+}
+
+.t-form button:hover {
+    box-shadow: 0px 0px 50px var(--bg);
+    background: rgb(237, 185, 83, 0.1);
+    color: white;
+    transition: all 1s;
+}
+
+
+
+.t-form input, textarea {
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: none;
+    color: #000;
+}
+
+.t-form button {
+    width: 50%;
+    background: var(--btn);
+    color: #000;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.f{
+    .f-1, .f-2 {
+        display: grid;
+        grid-template: column;
+        align-items: center;
+        grid-gap: 10px;
+        p {
+            color: rgb(255,255,255, 0.8);
+        }
+        a {
+            color: rgb(205, 205, 205, 0.5);
+        }
+    }
+}
+
+.acc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.accordion {
+    width: 90%;
+    max-width: 600px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+.accordion-header {
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+
+}
+
+.d-i {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.t-img img {
+    cursor: pointer;
+}
+
+.t-img img:hover {
+    box-shadow: 0px 0px 20px #fff;
+}
