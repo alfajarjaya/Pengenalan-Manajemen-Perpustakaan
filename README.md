@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Manajemen Perpustakaan
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Selamat datang di repositori Manajemen Perpustakaan! Ini adalah sebuah proyek yang bertujuan untuk memberikan solusi manajemen perpustakaan yang efisien dan mudah digunakan.
 
-## Available Scripts
+## Latar Belakang
 
-In the project directory, you can run:
+Pendidikan adalah fondasi utama bagi perkembangan masyarakat dan bangsa. Dalam hal pembelajaran, evaluasi merupakan bagian integral yang membantu mengukur pemahaman dan keterampilan siswa. Dengan berkembangnya teknologi, terutama dalam bahasa pemrograman Python dan antarmuka grafis pengguna ( GUI ), pengembangan aplikasi berbasis Python GUI dapat menjadi solusi yang efektif dan menarik. Python menawarkan sintaksis yang sederhana dan mudah dipahami, sementara antarmuka grafis memungkinkan pembuatan aplikasi yang lebih user-friendly dan interaktif.
 
-### `npm start`
+## Tujuan dan Manfaat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tujuan utama proyek ini adalah menyediakan platform yang intuitif dan efisien untuk manajemen perpustakaan, memungkinkan pengguna untuk melakukan berbagai tugas seperti menambahkan buku baru, meminjam dan mengembalikan buku, serta melacak inventaris dengan mudah. Manfaat utamanya meliputi:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Peningkatan efisiensi dalam operasi sehari-hari perpustakaan.
+- Kemudahan akses informasi bagi pengguna perpustakaan.
+- Pelacakan inventaris yang akurat dan teratur.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Anda dapat melihat demo aplikasi Manajemen Perpustakaan kami [Manajemen Perpustakaan](https://s.id/manajemen-perpustakaan).
 
-### `npm run build`
+## Framework/Library yang Digunakan
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Aplikasi Manajemen Perpustakaan ini dibangun dengan menggunakan teknologi berikut:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** HTML, CSS, and JavaScript
+- **Backend:** Python
+- **Database:** MySQL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Clone Repository
 
-### `npm run eject`
+Untuk clone repositori ini ke dalam komputer lokal Anda, ikuti langkah-langkah berikut:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Buka terminal Anda.
+2. Jalankan perintah `git clone https://github.com/alfajarjaya/Manajemen-Perpustakaan-2.git`.
+3. Masuk ke direktori proyek `tempat anda clone`.
+4. Siapkan database MySQL lokal atau ubah konfigurasi koneksi database sesuai kebutuhan Anda.
+6. Jalankan aplikasi dengan `python app.py` or `python -m run flask`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Selamat menggunakan aplikasi Manajemen Perpustakaan kami!
